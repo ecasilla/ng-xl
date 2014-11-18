@@ -1,0 +1,86 @@
+/*
+Error: Undefined variable: "$arrow-width".
+        on line 11 of app/styles/scss/ui.arrow.scss
+
+6:     position: absolute;
+7:     content: "";
+8:     display: block;
+9:     width: 0;
+10:     height: 0;
+11:     border-width: $arrow-width+1;
+12:     border-color: transparent;
+13:     border-style: solid;
+14:   }
+15:   &:after{
+16:     border-width: $arrow-width;
+
+Backtrace:
+app/styles/scss/ui.arrow.scss:11
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/script/tree/operation.rb:64:in `_perform'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin.rb:108:in `method_missing'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/exec/base.rb:52:in `parse'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/exec/base.rb:19:in `parse!'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/bin/sass:13:in `<top (required)>'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/bin/sass:23:in `load'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/bin/sass:23:in `<main>'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$arrow-width\".\A         on line 11 of app/styles/scss/ui.arrow.scss\A \A 6:     position: absolute;\A 7:     content: \"\";\A 8:     display: block;\A 9:     width: 0;\A 10:     height: 0;\A 11:     border-width: $arrow-width+1;\A 12:     border-color: transparent;\A 13:     border-style: solid;\A 14:   }\A 15:   &:after{\A 16:     border-width: $arrow-width;"; }

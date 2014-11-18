@@ -40,3 +40,17 @@
   src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'),
   url(../assets/fonts/open-sans-italic-light.woff) format('woff');
 }
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), 
+  url(../assets/fonts/ptsans/ptsans.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), 
+  url(../assets/fonts/ptsans/ptsans-bold.woff) format('woff');
+}

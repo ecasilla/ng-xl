@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "...ary, "primary")": expected "{", was ";"
+        on line 86 of app/styles/scss/bs.panel.scss
+
+81:   > .panel-footer {
+82:     border-color: $panel-heading-border;
+83:   }
+84: }
+85: 
+86: .panel-wariant($brand-primary, "primary");
+87: .panel-wariant($brand-info, "info");
+88: .panel-wariant($brand-success, "success");
+89: .panel-wariant($brand-warning, "warning");
+90: .panel-wariant($brand-danger, "danger");
+91: .panel-wariant($brand-dark, "dark");
+
+Backtrace:
+app/styles/scss/bs.panel.scss:86
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:1094:in `tok!'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:641:in `block'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/scss/parser.rb:42:in `parse'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/engine.rb:393:in `_to_tree'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/ecasilla/.rvm/gems/ruby-2.1.1/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ary, \"primary\")\": expected \"{\", was \";\"\A         on line 86 of app/styles/scss/bs.panel.scss\A \A 81:   > .panel-footer {\A 82:     border-color: $panel-heading-border;\A 83:   }\A 84: }\A 85: \A 86: .panel-wariant($brand-primary, \"primary\");\A 87: .panel-wariant($brand-info, \"info\");\A 88: .panel-wariant($brand-success, \"success\");\A 89: .panel-wariant($brand-warning, \"warning\");\A 90: .panel-wariant($brand-danger, \"danger\");\A 91: .panel-wariant($brand-dark, \"dark\");"; }
