@@ -9,7 +9,7 @@ angular.module('bms')
       isSmartDevice( $window ) && angular.element($window.document.body).addClass('smart');
       // config
       $scope.app = {
-        name: 'Black Market Systems',
+        name: 'BMS',
         version: '1.0.0',
         // for chart colors
         color: {
