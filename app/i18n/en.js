@@ -1,6 +1,5 @@
 
 {
-
   "header" : {
     "navbar" : {
       "DASHBOARD" : "Dashboard",

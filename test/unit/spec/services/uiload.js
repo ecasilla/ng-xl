@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Service: ui.load', function () {
+describe('Service: uiLoad', function () {
 
   var ui.load;
 
@@ -8,15 +8,15 @@ describe('Service: ui.load', function () {
 
     module('bms');
 
-    inject(function (_ui.load_) {
-      ui.load = _ui.load_;
+    inject(function (_uiLoad_) {
+      uiLoad = _uiLoad_;
     });
 
   });
 
 
   it('should do something', function () {
-    expect(!!ui.load).toBe(true);
+    expect(!!uiLoad).toBe(true);
   });
 
 });

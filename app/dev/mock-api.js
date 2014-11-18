@@ -10,7 +10,8 @@ angular.module('bms')
 
     var APIUrl = (Config.API.protocol + '://' + Config.API.host + ':' + Config.API.port + Config.API.path + '/');
 
-    $httpProvider.interceptors.push(['$q', '$timeout', 'Config', '$log', function ($q, $timeout, Config, $log) {
+    $httpProvider.interceptors.push(['$q', '$timeout', 'Config', '$log',
+    function ($q, $timeout, Config, $log) {
       return {
         'request': function (config) {
           log('Requesting `' + config.url + '`', config);

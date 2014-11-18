@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('bms')
-  .factory('AwesomeModel', function ($rootScope, BaseModel, APIBaseUrl, $injector) {
+  .factory('AwesomeModel', 
+  function ($rootScope, BaseModel, APIBaseUrl, $injector) {
 
     var url = APIBaseUrl + 'awesomes';
 

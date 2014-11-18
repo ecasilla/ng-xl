@@ -1,6 +1,7 @@
 <nav ui-nav>
   <div class="p p-v-md hidden-aside-top">
-    <a href="#" class="btn btn-sm btn-addon btn-success"><i class="fa fa-plus fa-fw"></i> Compose</a>
+    <a href="#" class="btn btn-sm btn-addon btn-success">
+      <i class="fa fa-plus fa-fw"></i> Compose</a>
   </div>
   <ul class="nav nav-stacked nav-pills m-h-sm">
     <li class="nav-header text-muted text-xs">
@@ -14,7 +15,7 @@
       </a>
     </li>
     <li>
-      <a ui-sref="app.calendar">
+      <a ui-sref="inbox.sent">
         <i class="glyphicon glyphicon-send text-lt"></i>
         <span class="font-bold">Sent Mail</span>
       </a>
@@ -26,14 +27,14 @@
       </a>
     </li>
     <li>
-      <a ui-sref="app.mail.list">
+      <a ui-sref="mail.draft">
         <b class="label rounded bg-info pull-right">9</b>
         <i class="glyphicon glyphicon-edit text-lt"></i>
         <span class="font-bold">Draft</span>
       </a>
     </li>
     <li>
-      <a ui-sref="app.mail.list">
+      <a ui-sref="mail.trash">
         <i class="glyphicon glyphicon-trash text-lt"></i>
         <span class="font-bold">Trash</span>
       </a>

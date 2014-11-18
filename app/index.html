@@ -54,10 +54,15 @@
     </noscript>
 
     <div id="root" class="ng-cloak">
-
+      <div 
+        class="app view-change-animation" 
+        ng-class="{'app-header-fixed':app.settings.headerFixed, 
+        'app-aside-top':app.settings.asideTop}" 
+        ng-controller="MainCtrl" 
+        ui-view>
+      </div>
         <!--<navbar-component></navbar-component>-->
-        <div ui-view class="view-change-animation"></div>
-
+        <!--<div ui-view class="view-change-animation"></div>-->
     </div>
 
     <script>
@@ -117,6 +122,7 @@
     <script src="config/config.js"></script>
     <script src="config/routes.js"></script>
     <script src="components/navbar/navbar.js"></script>
+    <script src="states/app/index/app-controller.js"></script>
     <script src="states/error/index/error.js"></script>
     <script src="states/inbox/index/inbox-controller.js"></script>
     <script src="states/index/index/index.js"></script>
