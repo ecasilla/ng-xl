@@ -1,5 +1,6 @@
 // icon list
-.list-icon i{.transition(font-size .2s); margin-right: 5px}
+
+/*.list-icon i {@mixin transition($font-size,.2s); margin-right: 5px}*/
 .list-icon div{line-height: 40px;white-space: nowrap;}
 
 

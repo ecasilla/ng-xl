@@ -1,6 +1,6 @@
 @mixin panel-wariant($bg-color, $name){
   $color: mix($bg-color, #fff, 15%);
-  .panel-#{$name}{
+  .panel-#{$name} {
     border-color: darken($color, 5%);
     > .panel-heading{
       color: darken($bg-color, 20%);
@@ -83,9 +83,9 @@
   }
 }
 
-.panel-wariant($brand-primary, "primary");
-.panel-wariant($brand-info, "info");
-.panel-wariant($brand-success, "success");
-.panel-wariant($brand-warning, "warning");
-.panel-wariant($brand-danger, "danger");
-.panel-wariant($brand-dark, "dark");
+/*.panel-wariant($brand-primary, primary);*/
+/*.panel-wariant($brand-info, info);*/
+/*.panel-wariant($brand-success, success);*/
+/*.panel-wariant($brand-warning, warning);*/
+/*.panel-wariant($brand-danger, danger);*/
+/*.panel-wariant($brand-dark, dark);*/

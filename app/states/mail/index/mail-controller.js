@@ -6,10 +6,10 @@ angular.module('bms')
       url: '/mail',
       views: {
         '': {
-          templateUrl: 'views/layout.html'
+          templateUrl: '../../views/layout.html'
         },
         'aside': {
-          templateUrl: 'views/partials/aside.nav.mail.html'
+          templateUrl: '../../views/partials/aside.nav.mail.html'
         }
       }
     }));

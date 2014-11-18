@@ -26,7 +26,21 @@
       "bower_components/ng-symbiosis-routeprovider/ng-symbiosis-routeprovider.src.js",
       "bower_components/ng-symbiosis-repository/ng-symbiosis-repository.src.js",
       "bower_components/ng-symbiosis-model/ng-symbiosis-model.src.js",
-      "bower_components/log/log.js"
+      "bower_components/log/log.js",
+      "bower_components/angular-strap/dist/angular-strap.js",
+      "bower_components/angular-strap/dist/angular-strap.tpl.js",
+      "bower_components/oclazyload/dist/oclazyload.js",
+      "bower_components/angular-ui-utils/ui-utils.js",
+      "bower_components/angular-touch/angular-touch.js",
+      "bower_components/moment/min/moment.min.js",
+      "bower_components/screenfull/dist/screenfull.js",
+      "bower_components/angular-translate/angular-translate.min.js",
+      "bower_components/angular-translate-storage-local/angular-translate-storage-local.js",
+      "bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js",
+      "bower_components/textAngular/textAngular.min.js",
+      "bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js",
+      "bower_components/angular-file-upload/angular-file-upload.min.js",
+      "bower_components/angular-bootstrap-nav-tree/dist/abn_tree_directive.js"
     ],
     "externalExcludeFromBuild": [
       "bower_components/angular-mocks/angular-mocks*.js"
