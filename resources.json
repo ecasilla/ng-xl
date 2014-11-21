@@ -50,7 +50,7 @@
       "scripts/module.js",
       "config/local.js",
       "config/*.js",
-      "scripts/framework/**/*.js",
+      "scripts/**/*.js",
       "components/**/*.js",
       "states/**/*.js",
       "scripts/**/*.js"

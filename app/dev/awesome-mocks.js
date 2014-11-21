@@ -1,5 +1,6 @@
 angular.module('bms')
-  .run(function (Config, $httpBackend, $log, APIBaseUrl, regexEscape, guid, mockRepository) {
+  .run(function (Config, $httpBackend, $log, APIBaseUrl, 
+                regexEscape, guid, mockRepository) {
     if (!Config.API.useMocks) return;
 
     var collectionUrl = APIBaseUrl + 'awesomes';

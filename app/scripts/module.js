@@ -32,8 +32,13 @@ var app = angular.module('bms', [
 angular.componentFactory.moduleDecorator(app);
 
 app.config(
-  [        '$controllerProvider', '$compileProvider', '$filterProvider', '$provide',
-  function ($controllerProvider,   $compileProvider,   $filterProvider,   $provide) {
+  [ 
+  '$controllerProvider',
+  '$compileProvider', 
+  '$filterProvider', 
+  '$provide',
+  function (
+  $controllerProvider,   $compileProvider,   $filterProvider,   $provide) {
       
       // lazy controller, directive and service
       app.controller = $controllerProvider.register;
@@ -47,7 +52,8 @@ app.config(
 ])
 .config(['$translateProvider', function($translateProvider){
   // Register a loader for the static files
-  // So, the module will search missing translation tables under the specified urls.
+  // So, the module will search missing translation 
+  // tables under the specified urls.
   // Those urls are [prefix][langKey][suffix].
   //$translateProvider.useStaticFilesLoader({
     //prefix: 'app/i18n/',

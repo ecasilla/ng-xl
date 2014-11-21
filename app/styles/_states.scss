@@ -1,9 +1,18 @@
 @import '../states/error/index/error-state';
 @import '../states/index/index/index-state';
+
 @import '../states/user/index/user-state';
+
 @import '../states/mail/index/mail-state';
-@import '../states/inbox/index/inbox-state';
+@import '../states/mail/inbox/index/inbox-state';
 
-@import '../states/inbox/index/inbox-state';
 
-@import '../states//app/index/app-state';
+@import '../states//faq/index/faq-state';
+@import '../states//support/index/support-state';
+
+@import '../states//settings/index/settings-state';
+@import '../states//settings/notifications/index/notifications-state';
+@import '../states//settings/security/index/security-state';
+@import '../states//settings/organization/index/organization-state';
+@import '../states//settings/account/index/account-state';
+@import '../states//settings/email/index/email-state';

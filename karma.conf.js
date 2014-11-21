@@ -35,7 +35,7 @@ module.exports = function (config) {
     '/components/**/*.js',
     '/states/**/*.js'
   ].map(mapAppPath)
-    .forEach(addPreprocessor(['jshint', 'coverage']));
+    .forEach(addPreprocessor(['coverage']));
 
   [
     '/views/**/*.html',

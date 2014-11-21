@@ -1,6 +1,6 @@
 <nav ui-nav>
   <div class="p p-v-md hidden-aside-top">
-    <a href="#" class="btn btn-sm btn-addon btn-success">
+    <a ui-sref="mail.compose" class="btn btn-sm btn-addon btn-success">
       <i class="fa fa-plus fa-fw"></i> Compose</a>
   </div>
   <ul class="nav nav-stacked nav-pills m-h-sm">
@@ -8,20 +8,20 @@
       Folders
     </li>
     <li>
-      <a ui-sref="mail.dashboard">
+      <a ui-sref="mail.inbox">
         <b class="label rounded bg-info pull-right">130</b>
         <i class="glyphicon glyphicon-inbox text-lt"></i>
         <span class="font-bold">Inbox</span>
       </a>
     </li>
     <li>
-      <a ui-sref="inbox.sent">
+      <a ui-sref="mail.sent">
         <i class="glyphicon glyphicon-send text-lt"></i>
         <span class="font-bold">Sent Mail</span>
       </a>
     </li>
     <li>
-      <a ui-sref="app.calendar">
+      <a ui-sref="mail.bookmarked">
         <i class="glyphicon glyphicon-bookmark text-lt"></i>
         <span class="font-bold">Bookmarked</span>
       </a>

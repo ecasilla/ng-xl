@@ -15,4 +15,5 @@ angular.module('bms')
     }));
   })
   .controller('MailCtrl', function ($scope) {
+     $scopt.mail = 'hello';
   });
